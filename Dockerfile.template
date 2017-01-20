@@ -1,0 +1,4 @@
+FROM resin/%%RESIN_MACHINE_NAME%%-debian
+
+CMD while : ; do echo "Idling..."; sleep 600; done
+
