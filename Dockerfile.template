@@ -1,4 +1,3 @@
 FROM resin/%%RESIN_MACHINE_NAME%%-alpine
 
-CMD while : ; do echo "Idling..."; sleep 600; done
-
+CMD while : ; do echo "Idling..."; sleep ${INTERVAL=600}; done
