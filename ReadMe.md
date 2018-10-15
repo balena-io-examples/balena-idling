@@ -1,7 +1,7 @@
-# resin-idling
+# balena-idling
 
 This is most likely the simplest + smallest base image you can use
-with a resin.io device, basically just pulling in a base image,
+with a balena device, basically just pulling in a base image,
 then idling, while periodically printing to the logs that "Idling...".
 
 There's one adjustable parameter: the period of how often "Idling..." is
@@ -11,8 +11,8 @@ choosing.
 
 You can use this project to:
 
-* test deploying to your resin.io device the quickest way, or
-* get your base image onto your device and develop your project by `resin ssh` into the container.
+* test deploying to your balena device the quickest way, or
+* get your base image onto your device and develop your project by connecting to the container with ssh.
 
 To use the smallest size, the [Alpine Linux](https://www.alpinelinux.org/) base
 image was used, switch that `FROM` line in the `Dockerfile.template` to another
@@ -21,7 +21,7 @@ available for your platform).
 
 ## License
 
-Copyright 2017 Resinio Ltd.
+Copyright 2017 balena Ltd.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
