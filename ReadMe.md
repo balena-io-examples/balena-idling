@@ -1,4 +1,4 @@
-# resin-idling
+# Balena-idling
 
 This is most likely the simplest + smallest base image you can use
 with a resin.io device, basically just pulling in a base image,
