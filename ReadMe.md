@@ -1,3 +1,11 @@
+**Deprecation notice** 
+There is now a `balena-idle` command present in all balena base images. Here is a simple example on how to use it:
+```
+FROM balenalib/%%BALENA_MACHINE_NAME%%-alpine
+
+CMD [ "balena-idle" ]
+```
+
 # Balena-idling
 
 This is most likely the simplest + smallest base image you can use
