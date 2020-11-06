@@ -19,8 +19,8 @@ choosing.
 
 You can use this project to:
 
-* test deploying to your resin.io device the quickest way, or
-* get your base image onto your device and develop your project by `resin ssh` into the container.
+* test deploying to your balena device the quickest way, or
+* get your base image onto your device and develop your project by `balena ssh` into the container.
 
 To use the smallest size, the [Alpine Linux](https://www.alpinelinux.org/) base
 image was used, switch that `FROM` line in the `Dockerfile.template` to another
